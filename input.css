@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+#gameboard{
+display: flex;
+justify-content: center;
+overflow: hidden;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+.square>div>{
+    height: 150px;
+    overflow: hidden;
+
+}
+img {height: 150px;
+}
+.black{
+    background-color: rgb(52, 34, 34)
+}
+.white{
+    background-color: bisque
+}
+canvas{
+    position: absolute;
+    left: -100%;
+}
+.highlight{
+    background-color: blueviolet
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
